@@ -1,3 +1,4 @@
+a {text-decoration: none;}
 .App {
   text-align: center;
 }
@@ -36,3 +37,12 @@
     transform: rotate(360deg);
   }
 }
+
+.navBar { height: 3.75em; background-color: #009ee3; color: white; margin: 0; padding: 0 20px; border: 0; display: flex; }
+.navBar .logo { width: auto; height: 100%; position: relative; display: flex; }
+.navBar .boxLogo { width: 100px; height: auto; padding: 0 20px; }
+.navBar .boxLogo img{ width: 100%; height: 100%; }
+.navBar .tittle { width: auto; height: 100%; position: relative; display: flex; padding: 0 40px; font-size: 3em; font-weight: bold; color: white; margin: 0; line-height: 100%; }
+.navBar .cartIcon{ width: 24px; height: 24px; cursor: pointer; margin-right: 20px;}
+
+  .boxMain { padding: 10px 20px; text-align: center; }
